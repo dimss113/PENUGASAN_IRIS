@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T15:10:33.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OyW3y8yGPYG60BAvLxax" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T15:22:26.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="UDLjVNSTIbwcSaQBoIju" version="20.2.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1773" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="909" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -183,8 +183,17 @@
         <mxCell id="8lcwkk5BvwK1nQJLz7jU-116" value="menggunakan function bitwise_or untuk menentukan threshold pada bola" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="970" y="860" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8lcwkk5BvwK1nQJLz7jU-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1" source="8lcwkk5BvwK1nQJLz7jU-120" target="8lcwkk5BvwK1nQJLz7jU-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8lcwkk5BvwK1nQJLz7jU-120" value="ball_threshold" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1170" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8lcwkk5BvwK1nQJLz7jU-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1" source="8lcwkk5BvwK1nQJLz7jU-125" target="8lcwkk5BvwK1nQJLz7jU-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lcwkk5BvwK1nQJLz7jU-125" value="morphology erode dan dilate untuk mengurangi noise dengan struktur elemen rectangular pada ball_threshold" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="670" width="120" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
